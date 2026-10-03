@@ -23,11 +23,11 @@
 
 ## ACADEMIC EXPERIENCE
 
-**Shidler College of Business, University of Hawai'i at Mānoa**
+**Shidler College of Business, University of Hawaiʻi at Mānoa**
 - Faculty Lecturer, Finance & Economics, Honolulu, HI
   - Teach graduate and undergraduate courses in Micro- & Macroeconomics for Managers, Economic & Financial Environment of Global Business, Corporate Finance, and International Business Finance, including in the Vietnam Executive MBA and the Distance Learning EMBA.
 
-**Windward Community College, University of Hawai'i**
+**Windward Community College, University of Hawaiʻi**
 - Lecturer, Sustainable Agriculture Entrepreneurship, Kāneʻohe, HI
   - Developed and taught a curriculum in sustainable agribusiness fundamentals, emphasizing both ecological stewardship and economic viability.
   - Guided student entrepreneurs through full business plan development, including budgets, financial statements, funding strategies, and investor presentations.
