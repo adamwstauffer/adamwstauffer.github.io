@@ -66,11 +66,11 @@
   - Portfolio Management and Wealth Planning
   - Quantitative Methods
 
-**University of Hawai'i, GoFarm Hawai'i AgCurious**
+**University of Hawaiʻi, GoFarm Hawaiʻi AgCurious**
 - Completed a 6-week introduction to production agriculture
 ## TEACHING EXPERIENCE
 
-**Shidler College of Business, University of Hawai'i at Mānoa**
+**Shidler College of Business, University of Hawaiʻi at Mānoa**
 - Faculty Lecturer, Honolulu, HI
   - Develop and teach undergraduate and MBA-level economics, finance, and corporate finance courses, including:
     - BUS 620: Micro- & Macroeconomics Foundations for Managers
@@ -84,7 +84,7 @@
   - Foster inclusive learning environments, promoting collaboration and critical thinking among students from diverse backgrounds.
   - Advise students on academic progress, career paths, and professional development.
 
-**Windward Community College, University of Hawai'i**
+**Windward Community College, University of Hawaiʻi**
 - Lecturer, Sustainable Agriculture Entrepreneurship, Kāneʻohe, HI
   - Instruct students in sustainable agribusiness fundamentals, emphasizing both ecological stewardship and economic viability.
   - Guide students through the development of complete sustainable agriculture business plans, including financial statements and multi-year projections.
