@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The doer–reviewer dilemma · Adam W. Stauffer</title>
+<meta name="description" content="What happens to learning, judgment and career advancement when AI does the first draft, and how I've rebuilt my courses around it.">
+<style>
+:root{--bg:#faf9f5;--ink:#1c1c1a;--muted:#5c5850;--rule:#e2ddd1;--acc:#2f5f7d;--card:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#161614;--ink:#ecebe6;--muted:#a9a396;--rule:#34332f;--acc:#8fb8d6;--card:#1f1e1b}}
+:root[data-theme="dark"]{--bg:#161614;--ink:#ecebe6;--muted:#a9a396;--rule:#34332f;--acc:#8fb8d6;--card:#1f1e1b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.6 Georgia,ui-serif,serif}
+main{max-width:680px;margin:0 auto;padding:32px 16px 80px}
+nav{font:14px ui-sans-serif,system-ui,sans-serif;margin:0 0 2.4rem;display:flex;flex-wrap:wrap;gap:.4rem 1rem}
+nav a{color:var(--acc);text-decoration:none}
+nav a[aria-current]{color:var(--ink);font-weight:600}
+h1{font-size:2.1rem;line-height:1.15;margin:0 0 .5rem;letter-spacing:-.01em}
+.dek{font-style:italic;color:var(--muted);margin:0 0 .8rem;font-size:1.1rem}
+.byline{color:var(--muted);margin:0 0 2.4rem;font:14px ui-sans-serif,system-ui,sans-serif}
+h2{font:600 .8rem ui-sans-serif,system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:2.6rem 0 .8rem;border-bottom:1px solid var(--rule);padding-bottom:.4rem}
+p{margin:0 0 1.15rem}
+ol{margin:0 0 1.15rem 1.3rem;padding:0}
+li{margin:0 0 .7rem}
+a{color:var(--acc)}
+.close{border-left:3px solid var(--acc);padding:.6rem 0 .6rem 1rem;margin:2rem 0 0}
+.close p{margin:0}
+footer{margin-top:3rem;color:var(--muted);font:13px ui-sans-serif,system-ui,sans-serif}
+</style>
+</head>
+<body>
+<main>
+<nav><a href="../index.html">Home</a><a href="../index.html#writing" aria-current="page">Writing</a><a href="../bio.html">Bio</a><a href="../resume.html">Resume</a><a href="../cv.html">CV</a></nav>
+
+<article>
+<h1>The doer–reviewer dilemma</h1>
+<p class="dek">What happens to learning, judgment and career advancement when AI does the first draft, and how I've rebuilt my courses around it.</p>
+<p class="byline">Adam W. Stauffer · October 2026</p>
+
+<p>My first jobs in marketing and finance were building things other people checked. At Advent Software, it was a monthly sales and competitive analysis report that went to senior management and executives. I built the Excel sheets, read sales transcripts, did the manual entry and summarization. On the ETF desk at Lehman Brothers, it was a real-time valuation and pricing model for international ETFs.</p>
+
+<p>Somebody more senior than me reviewed all of what I was doing. Most of what I know about analysis, decision-making and markets I learned in that gap, between what I built and what my more experienced colleagues found wrong and improved. Later, I reviewed and used work others had built. I could only do that because I had first built for people who knew more than I did.</p>
+
+<p>That gap was the apprenticeship. Until recently, the first job in finance, marketing, consulting or accounting worked the same way. Analysts built the spreadsheets, drafted the slide decks, checked the footnotes and wrote the first draft of the memo. More senior teammates then reviewed it. Build enough models and you start to see the error before you can say why. Companies paid for that education because the managers it produced were worth more than the years of training it took.</p>
+
+<h2>The bottom rung moved</h2>
+
+<p>AI changes the bottom of that ladder. A three-statement Excel model that took an analyst a weekend to build can be drafted by AI in minutes. So can the first cut of a memo, a presentation deck or a hedge recommendation.</p>
+
+<p>Companies still need judgment, arguably more of it, because someone must catch AI's real and consequential errors. A model can be formatted beautifully, tie to the penny and still use the wrong sign convention on a currency quote or embed an incorrect assumption.</p>
+
+<p>This is the dilemma. <strong>The work that trained future reviewers is the work AI now does first, faster, and with errors that are easier to miss.</strong> If entry-level and junior employees never build, never do, never get into the weeds, how is the pipeline of managers who review and execute developed?</p>
+
+<h2>Five steps, every project</h2>
+
+<p>My response is to have students practice both roles: do enough of the underlying work themselves to understand the model, then direct, test and revise what AI produces. Every project ends with a decision they must defend. In practice that means putting <em>doing</em> and <em>reviewing</em> into every project in my courses with AI in the middle. My hypothesis: if students do enough of the work by hand to know what right looks like and then practice the reviewer's job on work AI produced, then the doer–reviewer gap narrows.</p>
+
+<p>Every finance and economics course project I teach now uses the same five steps:</p>
+
+<ol>
+<li><strong>Frame.</strong> Write a short brief: what question actually needs answering, and for whom.</li>
+<li><strong>Specify.</strong> Write a spec: what a correct model must do, before anything is built. Inputs, formulas, checks, what the output should look like. This is where you find out whether you understand the problem.</li>
+<li><strong>Build with AI.</strong> Direct the AI to execute the spec the way you would direct an analyst, and keep the record of what you asked for. The prompt log is part of the work.</li>
+<li><strong>Validate.</strong> Audit the output against your spec. Check the figures. Find what broke, and there is almost always something. Loop back to steps 2 and 3 until the checks pass.</li>
+<li><strong>Decide.</strong> Write a decision memo: make the call and defend it in your own words. The memo brings the recommendation and its supporting evidence together, and it records the go or no-go.</li>
+</ol>
+
+<p>The order matters. Writing the specification first gives students a standard to test the model against. Without it, nobody knows what right looks like. So the by-hand work happens before the AI touches anything: students write the brief and the specification themselves, and the spec is committed before the workbook exists, so the order is on the record.</p>
+
+<p>AI use is expected but must be tracked and disclosed. A prompt log records activity; it does not establish understanding, so the grading looks for understanding in specific places. The commit history has to show the spec landing before the build. An audit entry earns credit only if it names what the check would have caught, not that it passed. The analysis has to cite the student's own workbook rather than the textbook, and it has to say where the student's opening hypothesis was wrong and why. The memo has to name the one variable the recommendation is most sensitive to. The reflection is graded hardest on a single question: how did you verify?</p>
+
+<h2>Doing it in the open</h2>
+
+<p>All of this happens on GitHub. Each student keeps a repository, with an agent instructions file at the top, the same convention professional codebases use. Each stage is a commit, so the history shows how the thinking moved: the spec is written before the build, the audit after it, the decision memo last.</p>
+
+<p>What a student leaves with is evidence of judgment. A hiring manager can open the repository and see the finished file, the spec it was held to, the errors that were caught, and the reasoning behind the call.</p>
+
+<h2>The longer version</h2>
+
+<p>A semester of this is the small version. The longer one, across a four-year undergraduate program or a two-year MBA, is a progression. Foundational construction first: students build small models by hand and learn what the parts are and how they fail. Assisted building next: they specify, direct an AI, and audit what comes back. Independent auditing last: they are handed a model they did not build and asked what is wrong with it and what it is worth. Harder problems and more AI are not enough on their own. The sequence is the point, and I do not yet know that it works.</p>
+
+<h2>What I'm still not sure about</h2>
+
+<p>A few caveats. Five steps in a semester is not years on a desk, and I don't claim it replaces that apprenticeship. It compresses one part of it.</p>
+
+<p>And the tools change every term, so the projects have to keep changing with them.</p>
+
+<div class="close">
+<p>The question I keep coming back to is the one employers will face too. If the first rung has moved, how do you build reviewers on purpose? This is my attempt. <strong>AI can build the model. The judgment is ours to own.</strong></p>
+</div>
+</article>
+
+<footer>© 2026 Adam W. Stauffer. All rights reserved.</footer>
+</main>
+</body>
+</html>
