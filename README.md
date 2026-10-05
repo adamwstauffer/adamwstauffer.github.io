@@ -32,7 +32,8 @@ python build.py
 ```
 
 It regenerates `resume.html`, `cv.html`, `bio.html` and, when Chromium or Chrome is on the path,
-`resume.pdf`. Commit all of them together so the HTML never drifts from the Markdown.
+`resume.pdf`. On Windows, run it as `PYTHONUTF8=1 python build.py`; without it the
+Markdown read fails on the default code page. Never hand-edit the generated HTML. Commit all of them together so the HTML never drifts from the Markdown.
 
 **Essays** are written as HTML in `writing/`, starting from the previous essay's file so the
 header, navigation and footer match. When an essay goes live, its card on the home page links to
@@ -48,7 +49,8 @@ see; merging it is the release.
 
 - American English spelling. Quoted titles keep their original spelling.
 - External links open in a new tab (`target="_blank" rel="noopener"`); links within the site do not.
-- No analytics, no scripts, no third-party assets. Pages work offline once loaded.
+- No analytics, no scripts, no third-party assets. Pages work offline once loaded. The one exception
+  is `treehouse/index.html`, which inlines Three.js for the 3D walkthrough.
 - An essay's date is the month it went live.
 
 ## License
