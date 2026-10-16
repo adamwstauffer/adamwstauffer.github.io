@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lessons on teaching and grading with AI from four case runs · Adam W. Stauffer</title>
+<meta name="description" content="What four runs of AI-permitted business cases showed about grading, disclosure and where students actually learn.">
+<style>
+:root{--bg:#faf9f5;--ink:#1c1c1a;--muted:#5c5850;--rule:#e2ddd1;--acc:#2f5f7d;--card:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#161614;--ink:#ecebe6;--muted:#a9a396;--rule:#34332f;--acc:#8fb8d6;--card:#1f1e1b}}
+:root[data-theme="dark"]{--bg:#161614;--ink:#ecebe6;--muted:#a9a396;--rule:#34332f;--acc:#8fb8d6;--card:#1f1e1b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 Georgia,ui-serif,serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 80px}
+nav{font:14px ui-sans-serif,system-ui,sans-serif;margin:0 0 2.4rem;display:flex;flex-wrap:wrap;gap:.4rem 1rem}
+nav a{color:var(--acc);text-decoration:none}
+nav a[aria-current]{color:var(--ink);font-weight:600}
+h1{font-size:2.1rem;line-height:1.15;margin:0 0 .5rem;letter-spacing:-.01em}
+.byline{color:var(--muted);margin:0 0 2rem;font:14px ui-sans-serif,system-ui,sans-serif}
+h2{font:600 .8rem ui-sans-serif,system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:2.6rem 0 .8rem;border-bottom:1px solid var(--rule);padding-bottom:.4rem}
+h3{font-size:1.05rem;margin:1.6rem 0 .5rem}
+p{margin:0 0 1.1rem}
+ul,ol{margin:0 0 1.1rem 1.3rem;padding:0}
+li{margin:0 0 .5rem}
+a{color:var(--acc);overflow-wrap:anywhere}
+hr{border:0;border-top:1px solid var(--rule);margin:2.2rem 0}
+.tw{overflow-x:auto;margin:0 0 1.3rem;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font:14px/1.45 ui-sans-serif,system-ui,sans-serif;background:var(--card)}
+th,td{border:1px solid var(--rule);padding:.45rem .55rem;text-align:left;vertical-align:top}
+th{color:var(--muted);font-weight:600}
+code{font-size:.9em}
+footer{margin-top:3rem;color:var(--muted);font:13px ui-sans-serif,system-ui,sans-serif}
+</style>
+</head>
+<body>
+<main>
+<nav><a href="../index.html">Home</a><a href="../index.html#writing">Writing</a><a href="../index.html#reports" aria-current="page">Reports</a><a href="../bio.html">Bio</a><a href="../resume.html">Resume</a><a href="../cv.html">CV</a></nav>
+
+<article>
+<h1>Lessons on teaching and grading with AI from four case runs</h1>
+<p class="byline">Adam W. Stauffer with Claude · October 2026</p>
+<p>When students may use AI on a case and the grading is generous, the grades end up at the ceiling and stop saying who understood anything. Across four case runs in 2026, what moved learning was making students run the thing they specified and then explain where it went wrong; what the cases should grade next is whether a student's checks could ever have failed.</p>
+<div class="tw"><table>
+
+<tbody>
+<tr>
+<td>Cases</td>
+<td>Microeconomics: Perfect Competition &amp; Marginal Cost · International Finance &amp; Securities: FX Hedging · International Corporate Finance: Performance Ratios</td>
+</tr>
+<tr>
+<td>Vintages</td>
+<td>Fall 2025 to Fall 2026. A <em>vintage</em> is one run of a case in one term. Four are reviewed here (Spring 2026 to Fall 2026); two earlier ones survive only as design records (§ 2)</td>
+</tr>
+<tr>
+<td>Nature</td>
+<td>A course-improvement review of my own cases, written from ordinary course records after grading. It is not a research study: nothing was collected for it, no student was asked to take part, and it claims nothing beyond these cases</td>
+</tr>
+<tr>
+<td>Evidence base</td>
+<td>Four private case post-mortems (Claude and Stauffer, 2026a–d). Their depth differs; see § 2</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>At a glance.</strong> About 210 students have worked through these cases: 7 cohorts across 6 case runs, 3 case topics and 4 terms, in multiple countries. 132 of them are in the four runs reviewed here (5 cohorts, 3 terms); the two earlier runs, Fall 2025 FX hedging and the Spring 2026 undergraduate ratios case, add about 80 more but left no grading record to review (§§ 2 and 4). A seventh run, Fall 2026 FX hedging, is in progress and not reviewed here. Four cohorts were undergraduate and three graduate, and most of the graduate students were working professionals. The reviewed runs had 20 graded stages, with AI permitted in every one, and the same policy throughout: students disclose which AI they used and for what, and disclosed use is never marked down.</p>
+<p><strong>The three cases.</strong></p>
+<ul>
+<li><strong>Perfect competition and marginal cost.</strong> A small market garden must choose how many beds of three crops to plant at fixed market prices. Students build its cost structure, derive each crop's marginal cost, and use Excel's Solver to find the most profitable mix within the farm's limits. First run Fall 2026: one cohort finished, one in progress. <a href="https://adamwstauffer.github.io/ai-lms/micro-and-macro-economics.html">Case page</a></li>
+<li><strong>FX hedging.</strong> A firm will receive a payment in a foreign currency. Students model four ways to manage that exposure (a forward contract, a money-market hedge, currency options and doing nothing) across a range of future exchange rates, and recommend one to the CFO. Ran Fall 2025, Spring 2026 and Summer 2026; the Fall 2026 run is in progress. <a href="https://adamwstauffer.github.io/ai-lms/international-finance-and-securities.html">Case page</a></li>
+<li><strong>Performance ratios.</strong> Students pick a listed company, load two years of its statements into a ratios workbook, and write a specification of the model and the analysis, drafted with AI, precise enough that an AI with no other context can run it. They check what comes back by hand and make the recommendation the AI couldn't. Ran Spring 2026 (undergraduate) and Summer 2026 (graduate); in revision for its next run in Spring 2027. <a href="https://adamwstauffer.github.io/ai-lms/international-corporate-finance.html">Case page</a></li>
+</ul>
+<p>Across all three, a <em>spec</em> is the student's written specification of the model before it exists, and running it <em>cold</em> means handing only that specification to a fresh AI session and comparing what comes back with the student's own work.</p>
+<p><strong>Cases built but not yet run.</strong> Three more cases are on the case site and haven't reached students yet, so nothing in this report draws on them:</p>
+<ul>
+<li><strong>Economic profit and rent (microeconomics).</strong> Four working lives taken from accounting profit down to economic profit, then a taxi medallion's climb past $1 million and its collapse, reproduced by a single division: rent ÷ required return. <a href="https://adamwstauffer.github.io/ai-lms/case-economic-profit.html">Case page</a></li>
+<li><strong>Imperfect competition (microeconomics).</strong> One company, two market structures: commodity corn seed priced at P = MC against patented seed priced at MR = MC. Students specify the model, have AI build it, audit the result, then put a number on what the patent costs society. <a href="https://adamwstauffer.github.io/ai-lms/case-imperfect-competition.html">Case page</a></li>
+<li><strong>Team case study (micro and macro).</strong> A consulting team takes on a geopolitical challenge, such as trade and supply-chain fragility or climate policy, and pitches a recommendation live. The deck is generated from a ten-slide content map and a design spec, audited against both, and built in a shared repository through branches and pull requests. <a href="https://adamwstauffer.github.io/ai-lms/team-case-study.html">Case page</a></li>
+</ul>
+<p><em>A synthesis of four case post-mortems written on the same day against the same lens, the Shen and Tamkin (2026) study of how AI use affects skill formation. The four detailed reports are private, because they describe individual cohorts; this one is the public summary. Every claim here traces to one of them; where they disagree or the evidence is thin, I say so. None of it is a measure of what students learned.</em></p>
+<hr>
+<h2>1. Executive summary</h2>
+<ul>
+<li><strong>Four cases, one result on grades: the ceiling.</strong> In every vintage, stage medians sit at or near full marks. Grade floors, regrades that can only raise a score, and structural first passes did that. The grades say who finished and revised. None of them says who understood the concept.</li>
+<li><strong>The cases improved where they made students run something.</strong> The Spring FX prompt was written and never run. The Summer ratios spec was run cold, and its silences turned into the AI's errors that students then had to explain. That mechanic was copied into the Summer FX redesign, where every final stage ran it, and into the Fall economics case as spec → build → audit. It is the clearest lineage in the portfolio.</li>
+<li><strong>Disclosure follows the template, everywhere.</strong> Where a field or a log was required, students filled it in, including "none." Where it wasn't, they almost never volunteered. Disclosed use was never marked down in any vintage, and no record suggests anyone feared it would be.</li>
+<li><strong>Most of the friction sat off the concept.</strong> Links, paths, folders, file extensions, saved values, collaborator access, template residue: frequent in every case, expensive in hours, nearly empty of economics or finance. The concept-bearing errors were rarer and, more often than not, caught by the reviewer rather than the student.</li>
+<li><strong>The strongest evidence of learning is students finding faults themselves</strong> — in their own build, in the AI's output, and in the course's own materials. Its mirror image is the most common weakness: a check that could not fail, reported as verification.</li>
+<li><strong>The course disagreed with itself in every vintage</strong>, and my side of the process produced errors of its own in every vintage. Those are findings about the instructor, not the students.</li>
+<li><strong>What comes next is a check, not a redesign.</strong> An end-of-case course evaluation with a short, ungraded concept check is the only thing in the portfolio that could say whether the cases taught what they set out to teach.</li>
+</ul>
+<hr>
+<h2>2. The portfolio at a glance</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Vintage</th>
+<th>Case</th>
+<th>Cohort type</th>
+<th>Stages</th>
+<th>Evidence depth</th>
+<th>Key finding</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fall 2025</td>
+<td>FX hedging case</td>
+<td>Undergraduate</td>
+<td>5</td>
+<td>Design record only: the case files survive; no grading record, submissions or post-mortem of the term</td>
+<td>Spec before build, with a stand-alone prompt stage. Its only trace in the later record is the design argument that reordered it for Spring 2026</td>
+<td>No report</td>
+</tr>
+<tr>
+<td>Spring 2026</td>
+<td>Performance ratios case</td>
+<td>Undergraduate</td>
+<td>4</td>
+<td>Design record and final course grades only; no stage grades or submissions</td>
+<td>Its own design memo sums up the feedback loop as "None (prompt not tested)" — the gap the graduate redesign closed</td>
+<td>No report</td>
+</tr>
+<tr>
+<td>Spring 2026</td>
+<td>FX hedging case</td>
+<td>Undergraduate</td>
+<td>4, all complete</td>
+<td>Deepest artifact read: every workbook opened, specs and memos read structurally. No process record existed</td>
+<td>The AI-facing deliverable — a prompt to regenerate the model — was written by most and run by none. Self-audit of the student's own build was the best work</td>
+<td>Claude and Stauffer (2026a)</td>
+</tr>
+<tr>
+<td>Summer 2026</td>
+<td>Performance ratios case</td>
+<td>Graduate, online, working professionals</td>
+<td>6, all complete</td>
+<td>Every stage report in full plus a subset of prompt logs. Workbooks not reopened</td>
+<td>Running the spec cold made conventions, units and reporting standards the concept-bearing errors. Students' operating knowledge produced the best analyses</td>
+<td>Claude and Stauffer (2026b)</td>
+</tr>
+<tr>
+<td>Summer 2026</td>
+<td>FX hedging case</td>
+<td>Undergraduate</td>
+<td>6, all complete (first run of the redesign, live in week one)</td>
+<td>Grading record and written reviews only. Repositories and prompt logs not reopened</td>
+<td>Everyone ran the prompt. The most common failure was a check that could not fail</td>
+<td>Claude and Stauffer (2026c)</td>
+</tr>
+<tr>
+<td>Fall 2026</td>
+<td>Perfect competition and marginal cost case</td>
+<td>Graduate: one online cohort (closed), one in person (mid-case)</td>
+<td>4; all complete online, two readable in person</td>
+<td>Review records plus repositories read structurally, both cohorts</td>
+<td>Friction landed mostly on Excel, Solver and git</td>
+<td>Claude and Stauffer (2026d)</td>
+</tr>
+</tbody>
+</table></div>
+<p>The evidence is not even. Spring FX read the artifacts but had no process to read. Summer FX read only what graders wrote. Summer ratios read the grade reports and a self-selected subset of the prompt logs. Fall read the repositories, but for presence, order and tool names, not content. Any comparison across rows inherits that. The two earlier runs have nothing to read beyond their designs, which is why neither has a post-mortem.</p>
+<hr>
+<h2>3. What held across every case</h2>
+<h3>3.1 Ceiling grades</h3>
+<p>Every report reaches the same verdict in nearly the same words: the grading regime converges on the ceiling and cannot be used to decide what to change. The mechanisms are the same in all four — a floor on every stage, regrades that can only raise, and a first pass that counted structure (a heading, a named range, a word count, a list marker). In the Summer FX case the automated first pass found nothing in half the audit notes because it counted list markers, and many results had to be corrected by hand (Claude and Stauffer, 2026c). In the Summer ratios case, repeated instructor overrides fixed a first pass that missed content (Claude and Stauffer, 2026b).</p>
+<p>I would keep the spirit of the generous regime — every report says so. What it needs is a companion measure, not a harsher rubric.</p>
+<h3>3.2 Disclosure follows the template</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Vintage</th>
+<th>Instrument</th>
+<th>What it showed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Spring 2026 FX</td>
+<td>An "LLM used" field in the spec and memo templates, none in the workbook</td>
+<td>Under half of specs and memos named a tool; workbooks almost never did, because nothing asked</td>
+</tr>
+<tr>
+<td>Summer 2026 ratios</td>
+<td>Running prompt log from Stage 4</td>
+<td>Nearly everyone kept one; the longest read like a methodology record</td>
+</tr>
+<tr>
+<td>Summer 2026 FX</td>
+<td>Prompt log in the repository skeleton</td>
+<td>Nearly everyone had one; it was checked for presence and length, never read as evidence</td>
+</tr>
+<tr>
+<td>Fall 2026 economics</td>
+<td>Prompt log as the disclosure for every stage</td>
+<td>Nearly every student named Claude; about half named an agentic tool; about four in ten used two or more tool families</td>
+</tr>
+</tbody>
+</table></div>
+<p>Students did not hide AI use. They disclosed exactly where the course asked, in the form the course asked for. The design question is therefore where to ask, not whether students will answer. The corollary: in two vintages the logs existed and nobody read them as evidence. That is the cheapest unread data in the portfolio.</p>
+<h3>3.3 Friction off the concept</h3>
+<p>The non-concept errors are the most frequent in every case:</p>
+<ul>
+<li><strong>Submission and paths.</strong> Some Spring FX final-stage links failed; Fall students hit wrong folders, <code>.gitignore</code> saved without its dot, and empty folders that never reached GitHub; Summer ratios students saved <code>.md.txt</code> files the grader couldn't see.</li>
+<li><strong>Save state.</strong> Workbooks with formulas and no saved values appear in Spring FX and, far more often, in Fall, where about half the online cohort also committed no saved Solver model.</li>
+<li><strong>Repository mechanics and polish.</strong> More than half the Summer FX skeletons were incomplete, and most final repositories had no license or description; placeholder READMEs and default commit messages showed up in the ratios cohort; collaborator access took almost the whole Fall case to reach every student.</li>
+<li><strong>Template residue.</strong> Placeholder titles, and a template's own vocabulary or metadata kept over the brief's, in three of the four cases.</li>
+</ul>
+<p>This is the study's distinction made concrete. Errors like these cost time and teach nothing about parity, ratios or marginal cost. The Fall report puts it bluntly: the case produced plenty of friction, but much of it missed the concept.</p>
+<h3>3.4 Self-audit as the strongest evidence</h3>
+<p>The best learning moment in every report has the same shape: a concept-bearing error met and resolved by the student.</p>
+<ul>
+<li><strong>Spring FX:</strong> more than a third of specs named a concrete, quantified defect in the student's own model.</li>
+<li><strong>Summer ratios:</strong> in roughly a third of final-stage repositories the hand check caught an AI figure that didn't match; several analyses separated AI mistakes from gaps in the student's own spec and from convention differences.</li>
+<li><strong>Summer FX:</strong> several students caught the course's reference calculator using a different premium-timing convention from the one their specs required, and worked out which was right.</li>
+<li><strong>Fall economics:</strong> several students found real errors in their own work; only a few caught an error in the course's own material.</li>
+</ul>
+<p>The mirror image is just as consistent: <strong>a check that cannot fail, reported as verification.</strong> In Spring FX, several specs asserted that parity held while the workbook beside them showed a large gap. In Summer FX, several students reported perfect matches between calculations built from the same inputs. Several ratios specs carried validation rules with no expected value. In Fall, a few checks could not fail, and most specs stated no tolerance at all. Four cases asked for verification. Mostly they rewarded confirmation.</p>
+<h3>3.5 Materials disagreeing with the course</h3>
+<p>Every report has a "the materials must agree" learning:</p>
+<ul>
+<li>Spring FX: the spec template had no model-review section while the brief required one; the Excel template's names disagreed with the brief's; the brief's point values disagreed with the gradebook.</li>
+<li>Summer FX: the reference calculator's premium convention differed from what the spec template required; the spec template still carried old stage numbers.</li>
+<li>Summer ratios: a named range the provided template didn't carry cost nearly every workbook; the bridge template styled input cells as calculated cells.</li>
+<li>Fall economics: stage point values didn't match the gradebook, a brief asked for something the course doesn't require, and a brief carried an error of its own.</li>
+</ul>
+<p>The students who trusted the materials paid for it, and the students who noticed did the best work. That is a bad trade to leave to chance, and every report says so.</p>
+<h3>3.6 Process-side errors</h3>
+<p>My side of the process made errors in every vintage:</p>
+<ul>
+<li>structural scorers that misread content (Summer FX, Summer ratios)</li>
+<li>files credited without being opened, stale claims in comments, a wrong due date sent to most of a cohort, and student threads left unread for weeks (Fall)</li>
+<li>feedback that supplied the corrected formula and so took away the very error the student should have resolved (Summer ratios)</li>
+<li>a revision pass that could not open the workbooks it was grading (Summer ratios)</li>
+</ul>
+<p>Several reached students. The Fall report's line holds for the portfolio: most of the learnings are about the instructor, and that is itself the finding.</p>
+<hr>
+<h2>4. How each vintage fed the next</h2>
+<p>The five handoffs that shaped the portfolio, drawn from the four reports' "What changed" sections. Dates are when the record shows the change, not when it reached students.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>From</th>
+<th>To</th>
+<th>What carried forward</th>
+<th>Dated in the record</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fall 2025 — FX hedging case (five stages, spec before build, a stand-alone prompt stage)</td>
+<td>Spring 2026 — FX hedging case</td>
+<td>Build moved ahead of the spec; the prompt stage folded into the final memo; deliverables became Markdown on GitHub</td>
+<td>2026-02-23, 2026-03-25</td>
+</tr>
+<tr>
+<td>Spring 2026 — performance ratios case (undergraduate cohort)</td>
+<td>Summer 2026 — performance ratios case (graduate cohort)</td>
+<td>"Prompt not tested" became a spec that is run: the spec as the central artifact, executed cold, a company of the student's choosing</td>
+<td>Design 2026-04-03, revised 2026-05-07 and 2026-05-12</td>
+</tr>
+<tr>
+<td>Spring 2026 — FX hedging case (broken final links; prompt never run)</td>
+<td>Summer 2026 — FX hedging case</td>
+<td>Six stages, spec before build, no starter template, a required audit, a fresh-model run, a hand-verification table, fixed paths and pull-request feedback</td>
+<td>Final stage graded 2026-05-02; diagnosis 2026-07-09; live 2026-07-10</td>
+</tr>
+<tr>
+<td>Summer 2026 — performance ratios case (graduate cohort)</td>
+<td>Summer 2026 — FX hedging case</td>
+<td>The staged flow wholesale: each stage feeds the next, shared naming vocabulary, published check figures, rubric tables, a running prompt log, the real spec-execution test</td>
+<td>2026-05-15 record; copied July 2026</td>
+</tr>
+<tr>
+<td>Spring 2026 — FX hedging case</td>
+<td>Fall 2026 — perfect competition and marginal cost case</td>
+<td>Spec → build → audit with no starter template ("your spec is the template"); check figures as acceptance criteria; a public repository with the instructor as collaborator from Stage 0</td>
+<td>Provided workbook retired 2026-08-03</td>
+</tr>
+</tbody>
+</table></div>
+<p>Two things stand out. First, the one change the portfolio argues against — moving the build ahead of the spec in Spring 2026 — was reversed within two vintages, and the reversal borrowed its mechanics from the ratios case rather than inventing its own. Second, ideas crossed topics more readily than they crossed terms within a topic: the staged flow went from ratios to FX to economics, not down a single course's line.</p>
+<hr>
+<h2>5. What differs by topic and cohort</h2>
+<p><strong>By topic, the concept-bearing error has a different home.</strong></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Case</th>
+<th>Where the concept lives</th>
+<th>Where it surfaced</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FX hedging</td>
+<td>Parity: the forward against the money-market hedge, the forward premium against the interest differential, tenor and day count</td>
+<td>In Spring, in a consistency check that wouldn't close and was left ungraded. In Summer, once the builds were clean, in the memo: parity and timing conventions misread at the moment of decision</td>
+</tr>
+<tr>
+<td>Performance ratios</td>
+<td>Conventions, units and standards: which balance, which period, which unit, which reporting standard</td>
+<td>In the cold run, wherever the spec was silent and the AI chose a default</td>
+</tr>
+<tr>
+<td>Perfect competition and marginal cost</td>
+<td>The shape of the marginal cost curve, shutdown logic, binding versus slack, what counts as being wrong</td>
+<td>In reflections, falsifiers and memo claims; much of the friction was on Excel, Solver and git instead</td>
+</tr>
+</tbody>
+</table></div>
+<p>The Summer FX report names the general pattern: clean workbooks move the errors into the prose, where a structural check can't see them. The ratios case shows the same thing from the other side — the AI rarely got the arithmetic wrong; it got the choices underneath wrong.</p>
+<p><strong>By cohort, outside knowledge mattered most for working professionals.</strong> The best ratios analyses came from students writing about their own company or industry, and from statements reported under a different accounting standard from the template's. In the Fall case, several students independently raised the costing question the case exists to raise, before the case asked. The undergraduate FX records show nothing equivalent, though their records are also the thinnest on student questions.</p>
+<p><strong>Online and in-person: alike on workbook habits, too early on the concepts.</strong> The Fall in-person cohort's early builds repeat the online cohort's workbook habits, but several students built a repository and never submitted its link, and fewer than half of the early briefs used the AI critique the way the stage asked. On the concepts it is too early to say.</p>
+<p><strong>Calendar matters.</strong> The ratios case ran six stages in two and a half weeks, and feedback on one stage could not always reach students before the next asked them to act on it. The Summer FX redesign landed in week one of a six-week term and cost throughput: several stages were re-reviewed five or six times. The Fall case ran over eight weeks.</p>
+<p><strong>Undergraduate versus graduate is confounded with everything else.</strong> Both reviewed undergraduate runs were FX, and the one undergraduate ratios run left no record to set beside them; the graduate runs were ratios and economics. I can't separate cohort from topic with this portfolio, and I won't try.</p>
+<hr>
+<h2>6. Open questions and what I'll look at next</h2>
+<p>The portfolio cannot answer the question that matters for the next run of each case: did students learn the concept, and did the way they used AI change that? Three of the four reports say so explicitly.</p>
+<p><strong>What I'll add to each case</strong> is ordinary course evaluation:</p>
+<ul>
+<li>an optional end-of-case questionnaire on how students used AI at each stage, which errors they hit, who fixed them, and where their hours went</li>
+<li>a short concept check done without AI and never graded, in the case's own terms, for example recomputing one hedge or one ratio by hand, or finding the misconception in a broken cost cell</li>
+</ul>
+<p>Self-report alone would mislead. In the study, the AI group found the task easier and learned less, so the check matters more than the questionnaire. Both are course evaluation: their results stay inside the course, and any later write-up would go through the university's usual review first.</p>
+<p><strong>Two cheaper steps can happen now.</strong> First, read the prompt logs the cases already require as a record of how the work was done. Second, for every check in every case, ask what error it could have caught.</p>
+<hr>
+<h2>7. Limits and issues</h2>
+<ul>
+<li><strong>This is four readings of grading records, not a measure of learning.</strong> No vintage has an unassisted check. Every count is a reviewer's count — structural, approximate, and often a floor or an upper bound depending on how it was read.</li>
+<li><strong>The evidence depth differs by report</strong> (§ 2), so a pattern that appears in one report and not another may be a difference in what was read, not in what happened.</li>
+<li><strong>AI use is what students disclosed or what the files plainly show.</strong> Nothing was inferred from how anything was written, and no authorship or style tool was run on any student's work in any vintage. Undisclosed use is invisible; the study's own pilots found 25–35% of its no-AI group used AI anyway.</li>
+<li><strong>Small, non-random cohorts, one instructor, one year.</strong> 132 students across five cohorts; topic and level are confounded (§ 5). Nothing here is causal, and nothing here is offered as a general finding about AI and learning. It describes these cases, for the purpose of improving them.</li>
+<li><strong>The author is the instructor.</strong> I designed the cases, graded them, and wrote these reports with Claude. The process-side errors in § 3.6 are there because the records show them, but a reviewer reading their own record has an interest.</li>
+<li><strong>The lens is borrowed.</strong> Shen and Tamkin studied 52 programmers for an hour, on a coding task, with immediate recall and no transfer test. Their result tells me where to look — the mode of AI use, and errors as the mechanism — not what I'll find in a business case over weeks.</li>
+<li><strong>Revision is slower than I'd like.</strong> Each case is frozen for the term it runs in, so no student is graded against a moving brief — but a lesson from one vintage reaches students a term later at the earliest. The Spring FX diagnosis came in July and shaped the Summer run; the Fall economics changes wait for Spring 2027. The one time a redesign went in fast — Summer FX, live in week one of its term — it cost throughput (§ 5), which is the case for the freeze and also its price.</li>
+</ul>
+<hr>
+<h2>References</h2>
+<h3>Sources</h3>
+<ul>
+<li>Shen, J. H., and Tamkin, A. (2026). "How AI Impacts Skill Formation." arXiv:2601.20245v2 [cs.CY], 1 February 2026. <a href="https://arxiv.org/abs/2601.20245">https://arxiv.org/abs/2601.20245</a>. Pre-registration: <a href="https://osf.io/w49e7">https://osf.io/w49e7</a>. Annotated transcripts: <a href="https://github.com/safety-research/how-ai-impacts-skill-formation">https://github.com/safety-research/how-ai-impacts-skill-formation</a>. <em>The lens throughout; the self-report point in § 6; the 25–35% pilot figure and the study's limits in § 7.</em></li>
+<li>Borio, C., McCauley, R. N., McGuire, P., and Sushko, V. (2016). "Covered interest parity lost: understanding the cross-currency basis." <em>BIS Quarterly Review</em>, September 2016. <a href="https://www.bis.org/publ/qtrpdf/r_qt1609e.htm">https://www.bis.org/publ/qtrpdf/r_qt1609e.htm</a> (accessed 2026-10-15). <em>Parity between the forward and the money-market hedge, and the forward premium against the interest differential (§§ 3.4, 5).</em></li>
+<li>Git project. "gitignore — Specifies intentionally untracked files to ignore." Git documentation. <a href="https://git-scm.com/docs/gitignore">https://git-scm.com/docs/gitignore</a> (accessed 2026-10-15). <em>The <code>.gitignore</code> naming problem in § 3.3.</em></li>
+<li>Git project wiki (archived by kernel.org). "GitFaq — Can I add empty directories?" <a href="https://archive.kernel.org/oldwiki/git.wiki.kernel.org/index.php/GitFaq.html">https://archive.kernel.org/oldwiki/git.wiki.kernel.org/index.php/GitFaq.html</a> (accessed 2026-10-15). <em>Empty folders that never reach GitHub (§ 3.3).</em></li>
+<li>Microsoft Support. "Define and solve a problem by using Solver." <a href="https://support.microsoft.com/en-us/office/define-and-solve-a-problem-by-using-solver-5d1a388f-079d-43ac-a7eb-f63e45925040">https://support.microsoft.com/en-us/office/define-and-solve-a-problem-by-using-solver-5d1a388f-079d-43ac-a7eb-f63e45925040</a> (accessed 2026-10-15). <em>Saved Solver models (§ 3.3).</em></li>
+</ul>
+<p>What a workbook written by a script looks like before Excel saves it (§ 3.3) is a practitioner observation, not a cited claim.</p>
+<h3>Reports covered (private)</h3>
+<ul>
+<li>Claude and Stauffer, A. W. (2026a, October 15). <em>Spring 2026 — FX hedging: a case post-mortem</em>. Private case report, not published.</li>
+<li>Claude and Stauffer, A. W. (2026b, October 15). <em>Summer 2026 — Performance ratios (graduate cohort): a case post-mortem</em>. Private case report, not published.</li>
+<li>Claude and Stauffer, A. W. (2026c, October 15). <em>Summer 2026 — FX hedging: a case post-mortem</em>. Private case report, not published.</li>
+<li>Claude and Stauffer, A. W. (2026d, October 15). <em>Fall 2026 — Perfect competition and marginal cost: a case post-mortem</em>. Private case report, not published.</li>
+</ul>
+<p>Their evidence base is stage review and grading records from April to October 2026; submitted repositories, workbooks, specifications and memos, read structurally where a report says so; a subset of student prompt logs; and case design memos dated 2026-02-23 to 2026-10-02.</p>
+</article>
+
+<footer>© 2026 Adam W. Stauffer. All rights reserved.</footer>
+</main>
+</body>
+</html>
