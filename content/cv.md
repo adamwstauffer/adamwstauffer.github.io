@@ -225,7 +225,7 @@
 
 ## SKILLS
 
-**AI:** Claude Code (skills, subagents, slash commands, MCP), Anthropic and OpenAI APIs, agent-instructions files (AGENTS.md / CLAUDE.md)
+**AI (self-taught):** Claude Code (skills, subagents, slash commands, MCP), Codex, Anthropic and OpenAI APIs, agent-instructions files (AGENTS.md / CLAUDE.md)
 
 **Programming:** Python, JavaScript, PHP, SQL, Visual Basic, CSS, HTML, Git/GitHub, GitHub Actions
 
