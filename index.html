@@ -13,7 +13,10 @@
 body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 Georgia,ui-serif,serif}
 main{max-width:720px;margin:0 auto;padding:48px 16px 80px}
 h1{font-size:2rem;margin:0 0 .2rem;letter-spacing:-.01em}
-.tag{color:var(--muted);margin:0 0 2rem;font:15px/1.5 ui-sans-serif,system-ui,sans-serif}
+.tag{color:var(--muted);margin:0;font:15px/1.5 ui-sans-serif,system-ui,sans-serif}
+.hero{display:flex;align-items:center;gap:20px;margin:0 0 2rem}
+.hero img{width:112px;height:112px;border-radius:50%;object-fit:cover;flex:none;border:1px solid var(--rule)}
+@media (max-width:480px){.hero img{width:88px;height:88px}}
 h2{font:600 .8rem ui-sans-serif,system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:2.6rem 0 .8rem;border-bottom:1px solid var(--rule);padding-bottom:.4rem}
 a{color:var(--acc)}
 .card{background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:14px 16px;margin:0 0 12px}
@@ -27,8 +30,13 @@ footer{margin-top:3rem;color:var(--muted);font:13px ui-sans-serif,system-ui,sans
 </head>
 <body>
 <main>
+<header class="hero">
+<img src="img/stauffer_headshot.jpg" alt="Adam W. Stauffer" width="112" height="112">
+<div>
 <h1>Adam W. Stauffer</h1>
 <p class="tag">Finance and economics lecturer. Former ETF trader and CIO. I build courses, and other things, with AI.</p>
+</div>
+</header>
 
 <p>I teach finance and economics at the Shidler College of Business, University of Hawaiʻi at Mānoa, to undergraduate, MBA and executive MBA students in Honolulu, Vietnam and online. Before teaching, I was a trader and market-maker in U.S.-listed ETFs at Barclays Capital and Lehman Brothers, founded and ran Springline Capital as Chief Investment Officer, and launched Advent Software's global solution for hedge funds and fund administrators. I hold an MBA in Finance from Wharton and was a CFA charterholder from 2004 to 2011.</p>
 <p>Every course project I teach is built around one problem: AI now drafts the first pass that junior analysts used to build, and that first pass was where they learned judgment.</p>
