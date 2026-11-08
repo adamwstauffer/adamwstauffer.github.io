@@ -76,7 +76,6 @@
 
 ## CERTIFICATIONS & ADDITIONAL SKILLS
 
-- **CFA Charterholder** (2004 – 2011)
 - **AI & Technical (self-taught):** Claude Code (skills, subagents, MCP), Codex, Anthropic and OpenAI APIs, Git/GitHub, GitHub Actions, Python, JavaScript, SQL, Visual Basic, Excel Modeling
 - **FINRA Licenses:** Series 7, 55, 63
 
