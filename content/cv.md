@@ -51,21 +51,6 @@
 - Series 55 Equity Trader Qualification
 - Series 63 Uniform Securities Agent State Law
 
-**CFA Institute**
-- Chartered Financial Analyst (CFA) charterholder (2004 - 2011)
-- **Key Coursework:**
-  - Ethics and Professional Standards
-  - Finance and Economics
-  - Corporate Finance
-  - Derivative Investments and Valuation
-  - Equity Investments and Valuation
-  - Financial Reporting and Analysis
-  - Fixed Income Investments and Valuation
-  - Microeconomics
-  - Macroeconomics
-  - Portfolio Management and Wealth Planning
-  - Quantitative Methods
-
 **University of Hawaiʻi, GoFarm Hawaiʻi AgCurious**
 - Completed a 6-week introduction to production agriculture
 ## TEACHING EXPERIENCE
