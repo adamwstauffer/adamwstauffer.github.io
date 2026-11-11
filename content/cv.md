@@ -34,7 +34,7 @@
   - Marketing: Marketing Management
   - Operations Management: Decision Models, Quality and Production
   - Statistics: Statistical Techniques, Forecasting Methods
-  - Miscellaneous: Inner City Housing Markets, Business Insurance
+  - Miscellaneous: Inner City Housing Markets, Business Insurance, Financial Engineering
 
 **Trinity College**, Hartford, CT
 - Bachelor of Arts; Major in Biology
